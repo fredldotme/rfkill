@@ -1,0 +1,14 @@
+Name: rfkill
+Summary: Tool for setting the rfkill switch setting
+Description: With this tool the rfkill setting for network, bluetooth, etc. interfaces can be set.
+Version: 0.4
+Release: 1
+Group: System/Base
+License: ISC
+URL: http://wireless.kernel.org/en/users/Documentation/rfkill
+Sources:
+    - "%{name}-%{version}.tar.bz2"
+Configure: none
+Files:
+    - "%{_sbindir}/%{name}"
+    - "%{_mandir}/man8/%{name}.8.gz"
